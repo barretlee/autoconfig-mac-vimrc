@@ -93,3 +93,9 @@ vim +PluginInstall! +qall;
 # rm -rf ~/v-tmp;
 echo "You can remove the template dir ~/v-tmp";
 ```
+
+## Thanks & LICENSE
+
+MIT LICENSE.
+
+Thanks for @noscriptor.
