@@ -31,7 +31,7 @@ chmod +x install;
 ./install;
 ```
 
-** bash code **
+__bash code__
 ```bash
 #!/bin/bash
 # @author Barret Lee<barret.china@gmail.com>
