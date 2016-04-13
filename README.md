@@ -2,12 +2,12 @@
 
 I'm a front-end engineer, and also a vimer, maybe this config file is suitable for you. This file did lots of things, such as:
 
-- installed brew if not exist.
-- installed fonts
-- installed colorschemes
-- installed ack 
-- installed all list bundle plugins, if exist, try update.
-- installed YouComplete for nodejs
+- install brew if not exist.
+- install fonts
+- install colorschemes
+- install ack 
+- install all list bundle plugins, if exist, try update.
+- install YouComplete for nodejs
 - and so on.
 
 ![pic](http://ww3.sinaimg.cn/large/6c0378f8gw1f2vlasl7e5j21kw0zkanh.jpg)
