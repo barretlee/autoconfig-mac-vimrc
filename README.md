@@ -91,6 +91,7 @@ echo "You can remove the temporary directory ~/v-tmp";
 
 ## Thanks & LICENSE
 
+Thanks for @noscripter.
+
 MIT LICENSE.
 
-Thanks for @noscriptor.
