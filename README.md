@@ -1,6 +1,6 @@
 # autoconfig-mac-vimrc
 
-I'm a front-end engineer, and also a vimer, maybe this config file is suitable for you. This file did lots of things, such as:
+I'm a front-end engineer, and also a vimer, maybe the config file is suitable for you. This file did lots of things, such as:
 
 - install brew if not exist.
 - install fonts
@@ -16,13 +16,13 @@ The `<leader>` key is `,`，use `,ne` open folders.
 
 ## Install 
 
-First way:
+The first approach:
 
-- copy the bash code very below to `install.sh`
+- copy the bash code at the bottom to `install.sh`
 - run command `chmod +x install.sh`
 - run command `./install.sh`
 
-Second way:
+The second approach:
 
 ```bash
 git clone https://github.com/barretlee/autoconfig-mac-vimrc.git;
@@ -41,19 +41,16 @@ __bash code__
 
 # .vimrc
 cd ~/v-tmp;
-[[ -d ~/v-tmp/rc ]] || git clone
-https://github.com/barretlee/autoconfig-mac-vimrc.git;
+[[ -d ~/v-tmp/rc ]] || git clone https://github.com/barretlee/autoconfig-mac-vimrc.git;
 
 # backup origin vimrc file
 [[ -f ~/.vimrc-bak ]] || cp ~/.vimrc ~/.vimrc-bak;
 mv ~/v-tmp/autoconfig-mac-vimrc/.vimrc ~/.vimrc;
-[[ -d ~/.vim/bundle/Vundle.vim ]] || git clone
-https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim;
+[[ -d ~/.vim/bundle/Vundle.vim ]] || git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim;
 
 # colors schemes
 cd ~/v-tmp;
-[[ -d ~/v-tmp/vim-colorschemes ]] || git clone
-https://github.com/flazz/vim-colorschemes.git;
+[[ -d ~/v-tmp/vim-colorschemes ]] || git clone https://github.com/flazz/vim-colorschemes.git;
 [[ -d ~/.vim/colors ]] || mv ~/v-tmp/colors ~/.vim/;
 
 # fonts for airline
