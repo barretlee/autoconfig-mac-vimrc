@@ -86,7 +86,7 @@ vim +PluginInstall! +qall;
 
 # rm tmp dir
 # rm -rf ~/v-tmp;
-echo "You can remove the template dir ~/v-tmp";
+echo "You can remove the temporary directory ~/v-tmp";
 ```
 
 ## Thanks & LICENSE
