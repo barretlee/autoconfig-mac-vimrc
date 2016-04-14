@@ -16,7 +16,7 @@ mv ~/v-tmp/autoconfig-mac-vimrc/.vimrc ~/.vimrc;
 # colors schemes
 cd ~/v-tmp;
 [[ -d ~/v-tmp/vim-colorschemes ]] || git clone https://github.com/flazz/vim-colorschemes.git;
-[[ -d ~/.vim/colors ]] || mv ~/v-tmp/colors ~/.vim/;
+[[ -d ~/.vim/colors ]] || mv ~/v-tmp/vim-colorschemes/colors ~/.vim/;
 
 # fonts for airline
 cd  ~/v-tmp;
