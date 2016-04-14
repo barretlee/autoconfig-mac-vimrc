@@ -36,6 +36,8 @@ __bash code__
 #!/bin/bash
 # @author Barret Lee<barret.china@gmail.com>
 
+[[ -d ~/.vim ]] || mkdir ~/.vim;
+
 # tmp dir
 [[ -d ~/v-tmp ]] || mkdir ~/v-tmp;
 
@@ -51,7 +53,7 @@ mv ~/v-tmp/autoconfig-mac-vimrc/.vimrc ~/.vimrc;
 # colors schemes
 cd ~/v-tmp;
 [[ -d ~/v-tmp/vim-colorschemes ]] || git clone https://github.com/flazz/vim-colorschemes.git;
-[[ -d ~/.vim/colors ]] || mv ~/v-tmp/colors ~/.vim/;
+[[ -d ~/.vim/colors ]] || mv ~/v-tmp/vim-colorschemes/colors ~/.vim/;
 
 # fonts for airline
 cd  ~/v-tmp;
