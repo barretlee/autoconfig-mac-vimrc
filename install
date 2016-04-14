@@ -37,8 +37,7 @@ brew install ack ag;
 if [[ -d ~/.vim/bundle/YouCompleteMe ]]; then
   echo "YouCompleteMe Exists";
 else
-  git clone https://github.com/Valloric/YouCompleteMe.git
-  ~/.vim/bundle/YouCompleteMe;
+  git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe;
   cd ~/.vim/bundle/YouCompleteMe;
   # for nodejs
   ./install.py --tern-completer;
