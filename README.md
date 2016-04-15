@@ -31,7 +31,7 @@ chmod +x install;
 ./install;
 ```
 
-__Attention:__ This shell script contains lots of plugins and tools, if you have never installed, it may takes a little long time, about 15+ mins in good network.
+<i>__Attention:__ This shell script contains lots of plugins and tools, if you have never installed, it may takes a little long time, about 15+ mins in good network.</i>
 
 __bash code__
 ```bash
