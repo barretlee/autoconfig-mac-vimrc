@@ -50,6 +50,8 @@ cd ~/v-tmp;
 # backup origin vimrc file
 [[ -f ~/.vimrc-bak ]] || cp ~/.vimrc ~/.vimrc-bak;
 mv ~/v-tmp/autoconfig-mac-vimrc/.vimrc ~/.vimrc;
+
+# vim pulgin controller - vundle
 [[ -d ~/.vim/bundle/Vundle.vim ]] || git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim;
 
 # colors schemes
