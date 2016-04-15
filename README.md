@@ -6,7 +6,7 @@ I'm a front-end engineer, and also a vimer, maybe the config file is suitable fo
 - install fonts
 - install colorschemes
 - install ack 
-- install all list bundle plugins, if exist, try update.
+- install all listed bundle plugins, if exist, try update.
 - install YouComplete for nodejs
 - and so on.
 
@@ -30,6 +30,8 @@ cd autoconfig-mac-vimrc;
 chmod +x install;
 ./install;
 ```
+
+**Attention: **This shell script contains lots of plugins and tools, if you have never installed, it may takes a little long time, about 15+ mins in good network.
 
 __bash code__
 ```bash
