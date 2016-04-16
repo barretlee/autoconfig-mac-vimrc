@@ -12,7 +12,7 @@ I'm a front-end engineer, and also a vimer, maybe the config file is suitable fo
 
 ![pic](http://ww3.sinaimg.cn/large/6c0378f8gw1f2vlasl7e5j21kw0zkanh.jpg)
 
-The `<leader>` key is `,`，use `,ne` open folders.
+The `<leader>` key is `,`，use `,ne` open folders, use `,bg` toggle background (light/dark).
 
 ## Install 
 
