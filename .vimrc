@@ -64,7 +64,7 @@
     Plugin 'edkolev/promptline.vim'
     Plugin 'sjl/clam.vim'
     Plugin 'ervandew/screen'
-    Plugin 'idbrii/AsyncCommand'
+    "Plugin 'idbrii/AsyncCommand'
     Plugin 'sjl/gundo.vim'
     Plugin 'mattn/webapi-vim'
     Plugin 'pangloss/vim-javascript'
